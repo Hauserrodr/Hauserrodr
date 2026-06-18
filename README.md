@@ -51,14 +51,13 @@ My strength is the **ideas and the wiring**: connecting tools, automating pipeli
 > Most production code is proprietary (PecSmart). These link to live demos, the paper, or my portfolio
 > — where you can actually *see* the work (videos, masks, simulations, the keyword dictionary).
 
-| Project | What it is | Stack | Result |
+| Project | What it is | Stack | Scale |
 |---|---|---|---|
-| **[SmartCam](https://hireme.h-brain.org)** | Pig weight from RGB cameras on an edge fleet | YOLO11x-seg · Pig2Vec (SSL) · DINOv3 · TensorRT | **300+ devices**, <1.35 kg MAE, 3× throughput |
+| **[SmartCam](https://hireme.h-brain.org)** | Pig weight from RGB cameras on a fleet + day-by-day growth modeling (XGBoost / LSTM / TFT) | YOLO11x-seg · Pig2Vec (SSL) · DINOv3 · TensorRT | **300+ edge devices** · <1.35 kg MAE · 3× throughput |
 | **[SmartMic](https://doi.org/10.3390/agriengineering7050140)** | Barn cough bioacoustics — **published** | TorchAudio · CNN–RNN · XGBoost | **99.6%** accuracy · F1 0.40 → 0.95 |
-| **[SmartFeed](https://hireme.h-brain.org)** | LiDAR feed-bins: 3D geometry + generative surfaces | Diffusion · Voxel VAE · Airflow/Celery | **4k+** synthetic surfaces · CPU-only inference |
+| **[SmartFeed platform](https://hireme.h-brain.org)** | End-to-end LiDAR silo monitoring: 10-stage geometry+ML microservices, a physics **digital-twin simulator** (PyBullet/Genesis), diffusion/flow-matching surfaces, a Voxel/Transformer-VAE encoder, prediction APIs | LiDAR · Diffusion · VAE · Airflow/Celery · FastAPI | **4k+** synthetic surfaces · 4 parallel workers · CPU-only inference |
+| **AI dev tooling** | Automating my own workflow — a **RAG over my Cursor/Claude history**, an Obsidian indexer (ChromaDB + Neo4j/Graphiti), a unified Gen-AI SDK | Python · ChromaDB · Neo4j · google-genai | Right context auto-injected into my AI tools |
 | **[AutoGab](https://github.com/Hauserrodr)** | Local **agentic** AI desktop platform | Python · FastAPI · LLM agents · Win32 | Pluggable submodules + tool-discovery loop |
-| **[Developer Brain](https://github.com/Hauserrodr)** | A **RAG over my own coding history** | ChromaDB · embeddings · Cursor SDK | Auto-context injected into my AI tools |
-| **[Ghost Grid](https://hireme.h-brain.org)** | Genetic-algorithm "living network" that composes its own soundtrack — live in your browser | Vanilla JS · Web Audio · Canvas | Evolves + grows a memory, in real time |
 | **[Diário do Professor](https://diariodoprofessor.org)** | Teacher-journal SaaS, shipped solo | FastAPI · Quasar/Vue 3 · PostgreSQL · GCP | Live, paying users |
 
 ---
@@ -95,13 +94,13 @@ My strength is the **ideas and the wiring**: connecting tools, automating pipeli
 ---
 
 <details>
-  <summary>🧬 <b>What I'm building right now</b></summary>
+  <summary>🧪 <b>Beyond the day job</b></summary>
 
   <br>
 
-  - **Ghost Grid → continual learning.** Turning the browser swarm into a model that learns *server-side* on a free 8 GB CPU box, with batch search on a local RTX 3060 and a cached GIF of the creatures.
-  - **Generative web audio.** A vanilla Web-Audio score the simulation composes itself — mode from genetic diversity, tempo from growth, earcons for births and deaths.
-  - **Agentic dev tooling.** AutoGab + the Developer-Brain RAG that feed the right context into my own AI workflow automatically.
+  - **Simulation & generative.** A small "h-" universe of experiments — 3D cellular automata (Manim-rendered), particle-life sandboxes evolved with genetic algorithms, physics sims (PyBullet/Genesis). The evolving "living network" background on my portfolio is one of these.
+  - **Agentic AI tooling.** AutoGab (a local agent platform) plus RAG indexers over my own code and notes that feed the right context into my AI workflow automatically.
+  - **Applied bleeding-edge.** I put new models to work fast — SAM 2/3, Depth-Anything-3, DINOv3, TimesNet, diffusion / flow-matching, Voxel/Transformer VAEs.
 
 </details>
 
