@@ -11,6 +11,7 @@
 <!-- ░░░░░░░░░░░░░░░░░░ IDENTITY / CTA ░░░░░░░░░░░░░░░░░░ -->
 <p align="center">
   <a href="https://hireme.h-brain.org"><img src="https://img.shields.io/badge/portfolio-hireme.h--brain.org-141416?style=for-the-badge&logo=firefox&logoColor=white"></a>
+  <a href="https://torres.h-brain.org"><img src="https://img.shields.io/badge/AI%20consulting-torres.h--brain.org-0B3A66?style=for-the-badge&logo=googlecloud&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/gabriel-steinhauser"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:gabrielsteinhauser@pecsmart.com.br"><img src="https://img.shields.io/badge/email-c14b3a?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://doi.org/10.3390/agriengineering7050140"><img src="https://img.shields.io/badge/peer--reviewed-MDPI%202025-4a6b51?style=for-the-badge&logo=doi&logoColor=white"></a>
